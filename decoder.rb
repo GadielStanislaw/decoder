@@ -1,6 +1,5 @@
 KEY = {
 }
-
 # Define a method that takes an array of numbers to decode.
 def decode(numbers)
   text = ""
