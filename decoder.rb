@@ -8,6 +8,8 @@ KEY = {
   7 => 'G',
   8 => '*',
   9 => '**',
+  10 => 'H',
+  11 => 'I',
 }
 # Define a method that takes an array of numbers to decode.
 def decode(numbers)
@@ -21,4 +23,11 @@ def decode(numbers)
   end
   # Return the decoded string.
   return text
+
+  # If letter was found...
+      if letter != nil
+        # Add it onto the string.
+        text += letter
+      end
+
 end
