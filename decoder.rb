@@ -12,4 +12,11 @@ def decode(numbers)
   end
   # Return the decoded string.
   return text
+
+  # If letter was found...
+      if letter != nil
+        # Add it onto the string.
+        text += letter
+      end
+
 end
