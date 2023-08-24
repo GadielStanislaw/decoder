@@ -11,6 +11,7 @@ KEY = {
   10 => 'H',
   11 => 'I',
   12 => 'J',
+  13 => 'k'
 }
 # Define a method that takes an array of numbers to decode.
 def decode(numbers)
