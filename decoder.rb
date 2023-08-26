@@ -6,12 +6,11 @@ KEY = {
   5 => 'E',
   6 => 'F',
   7 => 'G',
-  8 => '*',
-  9 => '**',
-  10 => 'H',
-  11 => 'I',
-  12 => 'J',
-  13 => 'k'
+  8 => 'H',
+  9 => 'I',
+  21=> 'Y',
+  22 => 'Z',
+
 }
 # Define a method that takes an array of numbers to decode.
 def decode(numbers)
